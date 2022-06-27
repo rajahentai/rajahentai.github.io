@@ -5,7 +5,7 @@
 		var tiukont = document.getElementById('teaserImageUrl').innerHTML;console.log(tiukont);
 		var postkon = ""+
 					"<a class='thumbx' href='"+urikont+"' title='Download JAV "+titkont+"' target='_blank'>"+
-					"<img data-src='"+tiukont+"' alt='Download JAV "+titkont+"' class='post-thumbnail lazy' src='"+tiukont+"'> "+
+					"<img data-src='"+tiukont+"' alt='Download JAV "+titkont+"' class='post-thumbnail lazy' src='https://lh4.googleusercontent.com/-8FaUdtZGvFM/XZzJNW-VG5I/AAAAAAAADIo/5520jWvYEqUQ_D8i_vva369pfT1iRtrhwCLcBGAsYHQ/w300-h170-rw-n-l85-fSoften=10,30,0/NiiHen.png'> "+
 					"</a>"+
 					"<div class='labelnyatas'>"+
 					"<i class='fas fa-tags'></i> "+
