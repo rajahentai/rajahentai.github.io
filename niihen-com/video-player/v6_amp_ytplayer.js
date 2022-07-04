@@ -37,9 +37,9 @@ var filevideo = getUrlParam('v',null),
     feeds = Base64.decode('YUhSMGNITTZMeT'+filevideo),
     feed = Base64.decode(feeds),
     fee = feed.replace("@",".blogspot.com/feeds/posts/default/");
-    console.log(feeds);
-    console.log(feed);
-    console.log(fee);
+    //console.log(feeds);
+    //console.log(feed);
+    //console.log(fee);
 
 if (urlf != urlasli) {
 
@@ -63,8 +63,8 @@ function nobar(json) {
 		iframeContent = /<iframe +(.*?)src=(['"])([^'"]+?)(['"])(.*?) *\/?>/i.exec(post.content.$t),
         iframeSrc = iframeContent && iframeContent[3] ? iframeContent[3] : config.noSrc;
 
-	console.log(iframeSrc);
-	console.log(iframeContent[0]);
+	//console.log(iframeSrc);
+	//console.log(iframeContent[0]);
 	container.innerHTML = iframeContent;
 	emdc.innerHTML = '<textarea readonly id="embcd" onclick="cpFunc();"> <iframe scrolling="no" allowfullscreen style="width:100%;height:480px;border:0px;overflow:hidden;" src="'+urlasli+'" ></iframe></textarea>';
 	
@@ -74,7 +74,7 @@ var script = document.createElement('script');
 script.src = fee+"?alt=json-in-script&callback=nobar";
 document.getElementsByTagName('head')[0].appendChild(script);
 
-console.log(feed);
+//console.log(feed);
 
 $(document).ready(function(){
 	$('.nonton').each(function(){ 
