@@ -13,10 +13,31 @@ return string;}}
 var urlasli = window.location.href, //https://film-seru-terbaru.blogspot.com/p/stream.html?m=1&v=loY3pZMFpEazRkM0ozTlRJeE0zUXhORFkxTlRGa01qTm1NWFp6WkRNeFpqSkFNakU1TXpZek5UTXlNekk1T0RJd09Ua3hNQT09
       urlf = urlasli.replace("?m=1&v=","?v=YUhSMGNITTZMeT"),
 	  ufeeds = urlf.replace(/http.+html?v=/,""),
-	  feeds = Base64.decode(ufeeds),
-	  feed = Base64.decode(feeds),
-	  fee = feed.replace("@",".blogspot.com/feeds/posts/default/"),
+	  
 	  idnonton = urlasli.replace(/http.+?m=1&v=/,"");
+
+//ini script untuk ambil parameter
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}
+
+var filevideo = getUrlParam('v',null),
+    feeds = Base64.decode(filevideo),
+    feed = Base64.decode(feeds),
+    fee = feed.replace("@",".blogspot.com/feeds/posts/default/");
+
 
 if (urlf != urlasli) {
 
