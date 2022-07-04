@@ -34,7 +34,7 @@ function getUrlParam(parameter, defaultvalue){
 }
 
 var filevideo = getUrlParam('v',null),
-    feeds = Base64.decode(filevideo),
+    feeds = Base64.decode('YUhSMGNITTZMeT'+filevideo),
     feed = Base64.decode(feeds),
     fee = feed.replace("@",".blogspot.com/feeds/posts/default/");
     console.log(feeds);
