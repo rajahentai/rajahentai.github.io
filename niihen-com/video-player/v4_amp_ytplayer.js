@@ -37,7 +37,9 @@ var filevideo = getUrlParam('v',null),
     feeds = Base64.decode(filevideo),
     feed = Base64.decode(feeds),
     fee = feed.replace("@",".blogspot.com/feeds/posts/default/");
-
+    console.log(feeds);
+    console.log(feed);
+    console.log(fee);
 
 if (urlf != urlasli) {
 
