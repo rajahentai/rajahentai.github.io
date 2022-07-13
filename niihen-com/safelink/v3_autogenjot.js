@@ -161,7 +161,7 @@ else if(harta == sak5)
 	
 }
 
-var kontlink = Base64.decode(beras1); 
+var kontlink = Base64.decode(beras1), kontlinked = Base64.decode(kontlink).replace("http://","").replace("https://",""), kontlinkedfix = encodeURIComponent(kontlinked); 
 function betah(){ 
-	window.open('https://shortener.goldcontent.site/?bnr=0&cdr=1&cl=0&inp=1&nat=1&pop=1&push=1&skip=10&sldr=1&tag=32666&title=NiiHen.Com%20Shortlink&utm_source=shrt_0&vid=1&dest='+kontlink); 
+	window.open('https://ouo.io/qs/GGytQtE4?s='+kontlinkedfix); 
 }
