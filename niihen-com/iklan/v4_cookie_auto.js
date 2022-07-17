@@ -63,8 +63,8 @@ var num = hitunganviewnya;
    //document.write("Number = "+num+"<br>");
    if(num % 2 == 0) {
       //document.write('Number is even!');
+      window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
    } else {
       //document.write('Number is odd!');
-      window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
 }
 
