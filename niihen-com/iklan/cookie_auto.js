@@ -55,7 +55,7 @@ endstr = document.cookie.length;
 return unescape(document.cookie.substring(offset, endstr));
 }
 var hitunganviewnya = amt();
-
+console.log(hitunganviewnya);
 
 
 
