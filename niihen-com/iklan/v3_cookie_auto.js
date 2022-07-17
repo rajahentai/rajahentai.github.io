@@ -59,30 +59,12 @@ console.log(hitunganviewnya);
 
 
 
+var num = hitunganviewnya;
+   //document.write("Number = "+num+"<br>");
+   if(num % 2 == 0) {
+      //document.write('Number is even!');
+   } else {
+      //document.write('Number is odd!');
+      window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
+}
 
-
-//document.write("You've been here <b>" + hitunganviewnya + "</b> times.");
-
-//var scriptxGHEA = document.createElement('script');
-//scriptxGHEA.setAttribute('type', 'text/javascript');
-//scriptxGHEA.setAttribute('src', 'https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v9.0');
-
-if (hitunganviewnya == 1) { 
-  //document.head.appendChild(scriptxGHEA); 
-} else
-if (hitunganviewnya == 3) { 
-  window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
-} else
-if (hitunganviewnya == 10) { 
-  window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
-} else 
-if (hitunganviewnya == 15) { 
-  window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
-} else 
-if (hitunganviewnya == 20) { 
-  window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
-} else 
-if (hitunganviewnya == 25) { 
-  window.location='https://www.safestgatetocontent.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
-} else 
-{}
