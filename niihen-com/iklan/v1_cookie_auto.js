@@ -67,12 +67,12 @@ var num = hitunganviewnya;
       
       var scriptxGHEA = document.createElement('script');
       scriptxGHEA.setAttribute('type', 'text/javascript');
-      scriptxGHEA.setAttribute('src', 'http://toddlecausebeeper.com/7c/bf/44/7cbf4466a8b07263c55a0b678b300b43.js');
+      scriptxGHEA.setAttribute('src', 'https://toddlecausebeeper.com/7c/bf/44/7cbf4466a8b07263c55a0b678b300b43.js');
       document.head.appendChild(scriptxGHEA); 
       
       var scriptxGHEAs = document.createElement('script');
       scriptxGHEAs.setAttribute('type', 'text/javascript');
-      scriptxGHEAs.setAttribute('src', 'http://toddlecausebeeper.com/9c/da/18/9cda18f433411bb5174d0db2ee1bbffd.js');
+      scriptxGHEAs.setAttribute('src', 'https://toddlecausebeeper.com/9c/da/18/9cda18f433411bb5174d0db2ee1bbffd.js');
       document.head.appendChild(scriptxGHEAs);       
       
    } else {
