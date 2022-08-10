@@ -61,7 +61,7 @@ console.log(hitunganviewnya);
 
 var num = hitunganviewnya;
    //document.write("Number = "+num+"<br>");
-   if(num % 3 == 0) {
+   if(num % 5 == 0) {
       //document.write('Number is even!');
       window.location='https://linkonclick.com/jump/next.php?r=6076862&sub1=showin3visit';
    } else {
