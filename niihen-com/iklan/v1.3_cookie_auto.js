@@ -61,9 +61,9 @@ console.log(hitunganviewnya);
 
 var num = hitunganviewnya;
    //document.write("Number = "+num+"<br>");
-   if(num % 3 == 0) {
+   if(num % 5 == 0) {
       //document.write('Number is even!');
-      //window.location='https://toddlecausebeeper.com/wd4gfq2p2f?key=a86b4c67e65aa35f34cbabf2a06c6951';
+      window.location='https://s.zlink1.com/d.php?z=4767250';
       
    } else {
       //document.write('Number is odd!');    
