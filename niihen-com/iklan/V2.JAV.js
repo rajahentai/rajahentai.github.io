@@ -1,5 +1,5 @@
 	function ngonsole(){
-		var urikont = document.getElementById('url').innerHTML; //console.log(urikont);
+		var urikont = document.getElementById('url').innerHTML.replace('www.blogmeat.cf','7486822895993461897_6fe6c0fbdf0d210eecb7e5d644a411d037c435af.blogspot.com'); //console.log(urikont);
 		var titkont = document.getElementById('title').innerHTML; //console.log(titkont);
 		var sbpkont = document.getElementById('shortBodyPlain').innerHTML; //console.log(sbpkont);
 		var tiukont = document.getElementById('teaserImageUrl').innerHTML; //console.log(tiukont);
